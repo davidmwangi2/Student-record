@@ -75,7 +75,7 @@ function App() {
   if(!user){
     return (
       <div className="App">
-        <h1>🎓 Student Record System</h1>
+        <h1> Student Record System</h1>
         {showSignup 
           ? <SignupForm onSignup={() => setShowSignup(false)} /> 
           : <LoginForm onLogin={handleLogin} />}
